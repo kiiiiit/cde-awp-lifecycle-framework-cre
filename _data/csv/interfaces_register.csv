@@ -1,0 +1,3 @@
+interface_id,source_area,target_area,description,linked_packages,deadline,owner,status,notes
+INT-0001,Design,Procurement,IFD to IFB transition for AHU spec,EWP-0007;PROC-1001,2025-09-20,pm.office,open,Need LCC attributes completed
+INT-0010,Procurement,Construction,Delivery → Install for UPS,PROC-1020;CWP-0202,2025-10-10,logistics.lead,in_progress,Customs clearance risk

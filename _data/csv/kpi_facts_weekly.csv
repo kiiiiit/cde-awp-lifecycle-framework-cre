@@ -1,0 +1,5 @@
+week,project_id,system_code,kpi_code,value,unit,owner,notes
+2025-W40,CRE-PILOT-01,ALL,SCH_ONTIME_AWP,82,percent,pm.office,Weekly on-time AWP packages
+2025-W40,CRE-PILOT-01,F1-BMS-Z1,CX_PASS_FIRST,67,percent,cx.lead,Pass at first attempt
+2025-W40,CRE-PILOT-01,ALL,REWORK_INDEX,0.12,ratio,qa.qc,Rework / total work
+2025-W40,CRE-PILOT-01,ALL,OPEX_ENERGY_INT,148,kWh/m2,operations.lead,Energy intensity estimate

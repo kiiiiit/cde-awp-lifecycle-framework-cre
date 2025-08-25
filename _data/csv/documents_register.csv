@@ -1,0 +1,3 @@
+doc_id,title,type,iso81346_code,related_package,status,revision,owner,date_updated,legal_significance,link
+DOC-0001,AHU-01 Specification,Specification,F1-HVAC-AHU-01,EWP-0007,IFD,B,design.lead,2025-08-20,digital-original,/Design/AHU-01-Spec.pdf
+DOC-0100,UPS Single Line Diagram,Drawing,F1-EL-UPS-01,EWP-0015,IFC,2,el.engineer,2025-09-01,requires-qualified-signature,/Design/UPS-SLD.pdf
