@@ -74,5 +74,5 @@
 > One‑Pager: [[OnePager_CDE-AWP_Framework]] (PDF будет добавлен при наличии пакета xelatex/wkhtmltopdf)
 
 ## Схема СУЖЦО
-- Mermaid: 
+- Mermaid: [docs/SUJCO_Overview.mmd](docs/SUJCO_Overview.mmd)
 - Рендер онлайн: https://mermaid.live/ (вставьте содержимое файла)
