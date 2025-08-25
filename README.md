@@ -4,34 +4,34 @@
 > Зачем: сократить простои фронтов и переработки, повысить предсказуемость сроков и качества ввода, снизить TCO/OPEX за счет LCC‑критериев в закупках и корректной передачи данных в эксплуатацию.
 > Какие проблемы решает: разрывы между проектированием/закупками/стройкой/ПНР, фрагментация кодов и статусов, «немые» документы без трассируемости, слабая юридическая значимость цифровых копий, отсутствие единых KPI готовности.
 
-> См. обзор: [[Framework_CDE-AWP_RealEstate]]
+> См. обзор: [Framework_CDE-AWP_RealEstate](Framework_CDE-AWP_RealEstate.md)
 
 ## Оглавление
-- [[01_Gates_Methodology]]
-- [[02_CDE_Data_Model]]
-- [[03_Classification_ISO81346]]
-- [[04_AWP_Packaging]]
-- [[05_Procurement_Readiness]]
-- [[06_System_Readiness_and_Cx]]
-- [[07_OandM_AsMaintained]]
-- [[08_KPI_and_Reporting]]
-- [[09_Roles_RACI_and_Policies]]
-- [[10_Commercial_RealEstate_Addendum]]
+- [01_Gates_Methodology](01_Gates_Methodology.md)
+- [02_CDE_Data_Model](02_CDE_Data_Model.md)
+- [03_Classification_ISO81346](03_Classification_ISO81346.md)
+- [04_AWP_Packaging](04_AWP_Packaging.md)
+- [05_Procurement_Readiness](05_Procurement_Readiness.md)
+- [06_System_Readiness_and_Cx](06_System_Readiness_and_Cx.md)
+- [07_OandM_AsMaintained](07_OandM_AsMaintained.md)
+- [08_KPI_and_Reporting](08_KPI_and_Reporting.md)
+- [09_Roles_RACI_and_Policies](09_Roles_RACI_and_Policies.md)
+- [10_Commercial_RealEstate_Addendum](10_Commercial_RealEstate_Addendum.md)
 
 ## Вспомогательные
-- [[Formats_and_Acceptance]]
-- [[LC_Map_and_Gates]]
-- [[CDE_and_Data_Model]]
-- [[AWP_and_Execution_Planning]]
-- [[System_Readiness_and_Cx_Details]]
-- [[OandM_Commercial_RealEstate]]
-- [[KPI_and_Reporting_Details]]
-- [[Roles_and_Responsibility]]
-- [[Ready_Templates_and_Forms]]
-- [[Mini_Implementation_Guide]]
+- [Formats_and_Acceptance](Formats_and_Acceptance.md)
+- [LC_Map_and_Gates](LC_Map_and_Gates.md)
+- [CDE_and_Data_Model](CDE_and_Data_Model.md)
+- [AWP_and_Execution_Planning](AWP_and_Execution_Planning.md)
+- [System_Readiness_and_Cx_Details](System_Readiness_and_Cx_Details.md)
+- [OandM_Commercial_RealEstate](OandM_Commercial_RealEstate.md)
+- [KPI_and_Reporting_Details](KPI_and_Reporting_Details.md)
+- [Roles_and_Responsibility](Roles_and_Responsibility.md)
+- [Ready_Templates_and_Forms](Ready_Templates_and_Forms.md)
+- [Mini_Implementation_Guide](Mini_Implementation_Guide.md)
 
 ## Данные для пилота
-- Папка CSV/YAML: `_data/` (см. [[Ready_Templates_and_Forms]])
+- Папка CSV/YAML: `_data/` (см. [Ready_Templates_and_Forms](Ready_Templates_and_Forms.md))
 
 
 ## ISO 81346: схема кодирования (пилот)
@@ -69,9 +69,9 @@
   - O&M паспорта: R=Operations Lead; A=PM; C=Cx Lead, QA/QC; I=Tenant Coordinator
 - См. `_data/csv/raci_matrix.csv`, `_data/yaml/gates.yaml`.
 
-> Техдок (тезисы): [[Technical_Documentation]]
+> Техдок (тезисы): [Technical_Documentation](Technical_Documentation.md)
 
-> One‑Pager: [[OnePager_CDE-AWP_Framework]] (PDF будет добавлен при наличии пакета xelatex/wkhtmltopdf)
+> One‑Pager: [OnePager_CDE-AWP_Framework](OnePager_CDE-AWP_Framework.md) (PDF будет добавлен при наличии пакета xelatex/wkhtmltopdf)
 
 ## Схема СУЖЦО
 - Mermaid: [docs/SUJCO_Overview.mmd](docs/SUJCO_Overview.mmd)
