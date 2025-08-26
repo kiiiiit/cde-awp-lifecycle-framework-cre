@@ -1,4 +1,4 @@
-# API (OpenAPI + Mock)
+# API (OpenAPI + мок‑сервер)
 
 - Спека: `api/openapi.yaml`
 - Мок‑сервер: `tools/mock_api.py`

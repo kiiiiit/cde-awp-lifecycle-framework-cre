@@ -1,4 +1,4 @@
-# AWP Flow
+# Поток AWP (AWP Flow)
 
 ```mermaid
 graph LR

@@ -1,4 +1,4 @@
-# Reports
+# Отчёты (Reports)
 
 CI генерирует:
 - `reports/out/kpi_weekly_agg.csv`

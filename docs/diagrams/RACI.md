@@ -1,4 +1,4 @@
-# RACI Overview
+# Обзор RACI (RACI Overview)
 
 ```mermaid
 graph TD

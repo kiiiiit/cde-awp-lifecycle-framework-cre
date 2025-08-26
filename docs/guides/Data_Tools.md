@@ -1,4 +1,4 @@
-# Data Tools
+# Инструменты данных (Data Tools)
 
 ## Шаблоны CSV
 ```bash
