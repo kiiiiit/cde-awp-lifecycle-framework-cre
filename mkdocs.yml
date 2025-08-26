@@ -19,36 +19,36 @@ markdown_extensions:
   - pymdownx.highlight
 nav:
   - Home: README.md
-  - Framework: Framework_CDE-AWP_RealEstate.md
-  - Technical Doc: Technical_Documentation.md
-  - OnePager: OnePager_CDE-AWP_Framework.md
+  - Framework: docs/overview/Framework_CDE-AWP_RealEstate.md
+  - Technical Doc: docs/overview/Technical_Documentation.md
+  - OnePager: docs/overview/OnePager_CDE-AWP_Framework.md
   - Sections:
-      - 01 Gates: 01_Gates_Methodology.md
-      - 02 CDE Data Model: 02_CDE_Data_Model.md
-      - 03 ISO 81346: 03_Classification_ISO81346.md
-      - 04 AWP Packaging: 04_AWP_Packaging.md
-      - 05 Procurement: 05_Procurement_Readiness.md
-      - 06 System Readiness & Cx: 06_System_Readiness_and_Cx.md
-      - 07 O&M As‑Maintained: 07_OandM_AsMaintained.md
-      - 08 KPI & Reporting: 08_KPI_and_Reporting.md
-      - 09 Roles & Policies: 09_Roles_RACI_and_Policies.md
-      - 10 CRE Addendum: 10_Commercial_RealEstate_Addendum.md
+      - 01 Gates: docs/core/01_Gates_Methodology.md
+      - 02 CDE Data Model: docs/core/02_CDE_Data_Model.md
+      - 03 ISO 81346: docs/core/03_Classification_ISO81346.md
+      - 04 AWP Packaging: docs/core/04_AWP_Packaging.md
+      - 05 Procurement: docs/core/05_Procurement_Readiness.md
+      - 06 System Readiness & Cx: docs/core/06_System_Readiness_and_Cx.md
+      - 07 O&M As‑Maintained: docs/core/07_OandM_AsMaintained.md
+      - 08 KPI & Reporting: docs/core/08_KPI_and_Reporting.md
+      - 09 Roles & Policies: docs/core/09_Roles_RACI_and_Policies.md
+      - 10 CRE Addendum: docs/core/10_Commercial_RealEstate_Addendum.md
   - Extras:
-      - Formats & Acceptance: Formats_and_Acceptance.md
-      - Lifecycle Map & Gates: LC_Map_and_Gates.md
-      - AWP & Execution: AWP_and_Execution_Planning.md
-      - System Readiness Details: System_Readiness_and_Cx_Details.md
-      - O&M for CRE: OandM_Commercial_RealEstate.md
-      - KPI Details: KPI_and_Reporting_Details.md
-      - Roles: Roles_and_Responsibility.md
-      - Templates & Forms: Ready_Templates_and_Forms.md
-      - Mini Guide: Mini_Implementation_Guide.md
-      - SUJCO Scheme: docs/SUJCO.md
-      - AWP Flow: docs/AWP_Flow.md
-      - Cx Matrix: docs/Cx_Matrix.md
-      - RACI: docs/RACI.md
-      - BI Integration: docs/BI_Integration.md
-      - API: docs/API.md
-      - Data Tools: docs/Data_Tools.md
-      - Reports: docs/Reports.md
-      - Roadmap: ROADMAP.md
+      - Formats & Acceptance: docs/supplementary/Formats_and_Acceptance.md
+      - Lifecycle Map & Gates: docs/supplementary/LC_Map_and_Gates.md
+      - AWP & Execution: docs/supplementary/AWP_and_Execution_Planning.md
+      - System Readiness Details: docs/supplementary/System_Readiness_and_Cx_Details.md
+      - O&M for CRE: docs/supplementary/OandM_Commercial_RealEstate.md
+      - KPI Details: docs/supplementary/KPI_and_Reporting_Details.md
+      - Roles: docs/supplementary/Roles_and_Responsibility.md
+      - Templates & Forms: docs/supplementary/Ready_Templates_and_Forms.md
+      - Mini Guide: docs/supplementary/Mini_Implementation_Guide.md
+      - SUJCO Scheme: docs/diagrams/SUJCO.md
+      - AWP Flow: docs/diagrams/AWP_Flow.md
+      - Cx Matrix: docs/diagrams/Cx_Matrix.md
+      - RACI: docs/diagrams/RACI.md
+      - BI Integration: docs/guides/BI_Integration.md
+      - API: docs/api/API.md
+      - Data Tools: docs/guides/Data_Tools.md
+      - Reports: docs/guides/Reports.md
+      - Roadmap: docs/overview/ROADMAP.md

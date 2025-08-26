@@ -5,39 +5,74 @@ gates:
     outputs: [gate_decision, scope_baseline]
     raci: {R: PM, A: Sponsor, C: Engineering, I: Operations}
     data_quality: [Completeness, Consistency, Traceability, Legal]
+    checklist:
+      required_artifacts: [business_case, stakeholders_map]
+      readiness_criteria: [inputs_complete, owners_assigned, statuses_valid]
+      meeting_format: committee with RACI present
+      decision_protocol: recorded minutes with actions and due dates
   - id: G1
     name: Concept Select
     inputs: [requirements_register, options_analysis]
     outputs: [approved_concept, risk_register]
     raci: {R: PM, A: Sponsor, C: Engineering, I: Procurement}
     data_quality: [Completeness, Consistency, Traceability, Legal]
+    checklist:
+      required_artifacts: [requirements_register, options_analysis]
+      readiness_criteria: [inputs_complete, owners_assigned, statuses_valid]
+      meeting_format: committee with RACI present
+      decision_protocol: recorded minutes with actions and due dates
   - id: G2
     name: Define
     inputs: [EWP_list, procurement_strategy]
     outputs: [EWP_baseline, CWP_map]
     raci: {R: Design Lead, A: PM, C: Procurement, I: Operations}
     data_quality: [Completeness, Consistency, Traceability, Legal]
+    checklist:
+      required_artifacts: [EWP_list, procurement_strategy]
+      readiness_criteria: [inputs_complete, owners_assigned, statuses_valid]
+      meeting_format: committee with RACI present
+      decision_protocol: recorded minutes with actions and due dates
   - id: G3
     name: Execute Readiness
     inputs: [CWP_list, logistics_plan]
     outputs: [IWP_pipeline, interface_register]
     raci: {R: Construction PM, A: PM, C: Logistics, I: QA/QC}
     data_quality: [Completeness, Consistency, Traceability, Legal]
+    checklist:
+      required_artifacts: [CWP_list, logistics_plan]
+      readiness_criteria: [materials_available, interfaces_cleared, resources_allocated]
+      meeting_format: committee with RACI present
+      decision_protocol: recorded minutes with actions and due dates
   - id: G4
     name: Mechanical Completion
     inputs: [systems_readiness, MC_packages]
     outputs: [SAT_plan, punchlist]
     raci: {R: Cx Lead, A: PM, C: QA/QC, I: Operations}
     data_quality: [Completeness, Consistency, Traceability, Legal]
+    checklist:
+      required_artifacts: [systems_readiness, MC_packages]
+      readiness_criteria: [materials_available, interfaces_cleared, resources_allocated]
+      meeting_format: committee with RACI present
+      decision_protocol: recorded minutes with actions and due dates
   - id: G5
     name: Commissioning Acceptance
     inputs: [SAT_results, integration_tests]
     outputs: [OPE_report, training_plan]
     raci: {R: Cx Lead, A: PM, C: Operations, I: Sponsor}
     data_quality: [Completeness, Consistency, Traceability, Legal]
+    checklist:
+      required_artifacts: [SAT_results, integration_tests]
+      readiness_criteria: [inputs_complete, owners_assigned, statuses_valid]
+      meeting_format: committee with RACI present
+      decision_protocol: recorded minutes with actions and due dates
   - id: G6
     name: Handover to Operations
     inputs: [as_built, O&M_passports]
     outputs: [as_maintained_baseline, SLA]
     raci: {R: Operations Lead, A: PM, C: Cx Lead, I: Sponsor}
     data_quality: [Completeness, Consistency, Traceability, Legal]
+    checklist:
+      required_artifacts: [as_built, O&M_passports]
+      readiness_criteria: [as_built_complete, o&m_passports, ope_report, sla_signed]
+      meeting_format: committee with RACI present
+      decision_protocol: recorded minutes with actions and due dates
