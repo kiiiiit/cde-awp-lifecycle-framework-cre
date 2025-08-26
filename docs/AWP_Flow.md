@@ -1,0 +1,15 @@
+# AWP Flow
+
+```mermaid
+graph LR
+EWP[EWP - Engineering Work Package] --> CWP[CWP - Construction Work Package]
+CWP --> IWP1[IWP - Weekly Pack 1]
+CWP --> IWP2[IWP - Weekly Pack 2]
+PROC[(Procurement & Logistics)] --> CWP
+PROC --> IWP1
+PROC --> IWP2
+CDE[(CDE)] --> EWP
+CDE --> CWP
+CDE --> IWP1
+CDE --> IWP2
+```
