@@ -54,5 +54,6 @@ nav:
       - Интеграция с BI: guides/BI_Integration.md
       - Инструменты данных: guides/Data_Tools.md
       - Отчёты: guides/Reports.md
+      - Руководство по внедрению: guides/Implementation_Guide_CRE.md
       - API: api/API.md
       - Дорожная карта: overview/ROADMAP.md

@@ -5,6 +5,7 @@
 - Одностраничник (One‑Pager): [OnePager_CDE-AWP_Framework](overview/OnePager_CDE-AWP_Framework.md)
 
 ## Core
+
 - [01_Gates_Methodology](core/01_Gates_Methodology.md)
 - [02_CDE_Data_Model](core/02_CDE_Data_Model.md)
 - [03_Classification_ISO81346](core/03_Classification_ISO81346.md)
@@ -17,6 +18,7 @@
 - [10_Commercial_RealEstate_Addendum](core/10_Commercial_RealEstate_Addendum.md)
 
 ## Дополнительно (Extras)
+
 - [Схема СУЖЦО (SUJCO Scheme)](diagrams/SUJCO.md)
 - [Поток AWP (AWP Flow)](diagrams/AWP_Flow.md)
 - [Матрица ПНР (Cx Matrix)](diagrams/Cx_Matrix.md)
