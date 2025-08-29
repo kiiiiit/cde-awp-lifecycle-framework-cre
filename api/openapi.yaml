@@ -1,0 +1,79 @@
+openapi: 3.0.3
+info:
+  title: CDE-AWP Lifecycle Framework API (Mock)
+  version: 0.1.0
+servers:
+  - url: http://localhost:8000
+paths:
+  /entities/document:
+    get:
+      summary: List documents
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  /entities/package:
+    get:
+      summary: List packages (AWP)
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  /entities/system:
+    get:
+      summary: List systems readiness
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  /entities/procurement_item:
+    get:
+      summary: List procurement catalog items
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  /entities/test:
+    get:
+      summary: List tests
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  /entities/defect:
+    get:
+      summary: List defects
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object

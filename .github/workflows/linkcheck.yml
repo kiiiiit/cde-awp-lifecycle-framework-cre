@@ -13,3 +13,4 @@ jobs:
           args: --verbose --no-progress --accept 200,206 --exclude "mermaid.live" "**/*.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
