@@ -1,3 +1,0 @@
-item_id,iso81346_code,gs1_gtin,title,tech_attributes,lcc_energy_kwh_per_year,lcc_service_interval_months,spares_included,doc_status_ifb_ifd_ifc,lead_time_days,buffer_days,owner
-PROC-1001,F1-HVAC-AHU-01,04601234567893,Air Handling Unit AHU-01,flow=12000m3h;esp=600Pa;eff=IE3,14500,12,true,IFB,60,10,procurement.lead
-PROC-1020,F1-EL-UPS-01,04012345678905,UPS System 50kVA,topology=online;runtime=15min;eff=96%,8200,18,false,IFD,45,7,procurement.eng

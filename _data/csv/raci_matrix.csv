@@ -1,5 +1,0 @@
-artefact_id,artefact_type,role_responsible,role_accountable,role_consulted,role_informed
-GATE-3,Gate Checklist,System Engineer,Project Manager,Procurement Lead;Cx Lead,All Stakeholders
-EWP-0007,Package,Design Lead,Project Manager,QA/QC;Operations,Procurement Lead
-PROC-1001,Procurement Item,Procurement Lead,Project Manager,System Engineer;Operations,QA/QC
-CX-PLAN-01,Cx Plan,Cx Lead,Project Manager,QA/QC;Design Lead,Operations Lead

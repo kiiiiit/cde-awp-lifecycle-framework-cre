@@ -1,3 +1,0 @@
-system_code,system_name,mc_packages,percent_complete,mechanical_completion,dependencies,owner,notes
-F1-BMS-Z1,BMS Zone 1,MC-BMS-Z1-01;MC-BMS-Z1-02,35,false,UPS-commissioned;Network-live,cx.lead,Awaiting VAV controllers
-F1-HVAC-AHU-01,HVAC AHU-01,MC-HVAC-AHU-01;MC-HVAC-DUCT-01,60,true,Power-on;Controls-wired,qa.qc,Ready for SAT

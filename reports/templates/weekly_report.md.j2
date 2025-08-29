@@ -1,7 +1,7 @@
 # Weekly Report — {{ project_id }} — {{ week }}
 
 ## AWP Packages (On-time)
-- On-time rate: {{ ontime_rate }}%
+- On-time rate: {{ ontime_rate|default('NA') }}%
 
 ## System Readiness (Summary)
 - Systems: {{ systems_count }}
@@ -9,8 +9,8 @@
 - MC done: {{ mc_done }}
 
 ## Cx PASS/FIRST (if available)
-- CX_PASS_FIRST: {{ cx_pass_first or NA }}%
+- CX_PASS_FIRST: {{ cx_pass_first|default('NA') }}%
 
 ## Risks & Interfaces
 - Open interfaces: {{ open_interfaces }}
-- Notes: {{ notes or — }}
+- Notes: {{ notes|default('—') }}

@@ -25,9 +25,19 @@ class MockAPIHandler(BaseHTTPRequestHandler):
             with open(entities_file, 'r', encoding='utf-8') as f:
                 entities_config = yaml.safe_load(f)
 
-            if entity_type in entities_config.get('entities', {}):
-                # Load CSV data for the entity
-                csv_file = os.path.join(REPO, f"_data/csv/{entity_type}.csv")
+            entity_definitions = entities_config.get('entities', {})
+            if entity_type in entity_definitions:
+                # Map API entity name to CSV filename
+                mapping = {
+                    'document': 'documents_register.csv',
+                    'package': 'awp_packages.csv',
+                    'system': 'systems_readiness.csv',
+                    'procurement_item': 'procurement_catalog.csv',
+                    'test': 'tests_matrix.csv',
+                    'defect': 'cx_defects_log.csv',
+                }
+                csv_name = mapping.get(entity_type, f"{entity_type}.csv")
+                csv_file = os.path.join(REPO, f"_data/csv/{csv_name}")
                 if os.path.exists(csv_file):
                     data = self.load_csv_data(csv_file)
                     self.send_json_response(data)

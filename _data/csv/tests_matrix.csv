@@ -1,5 +1,0 @@
-test_id,system_code,test_type,step_no,step_desc,expected,pass_criteria,tolerance,owner
-SAT-BMS-001,F1-BMS-Z1,SAT,1,Power up controller,Controller boots,No fault LEDs,NA,cx.engineer
-SAT-BMS-001,F1-BMS-Z1,SAT,2,Network join,Controller online in BMS,Online within 60s,<=60s,cx.engineer
-FAT-HVAC-010,F1-HVAC-AHU-01,FAT,1,Fan rotation check,Correct rotation,Rotation OK,NA,qa.qc
-INT-EL-UPS-005,F1-EL-UPS-01,INTEGRATION,1,Transfer to battery,No critical load drop,Voltage stays within spec,±5%,cx.lead
