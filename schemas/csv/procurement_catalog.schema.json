@@ -1,0 +1,17 @@
+{
+  "": "https://frictionlessdata.io/schemas/table-schema.json",
+  "fields": [
+    {"name": "item_id", "type": "string"},
+    {"name": "iso81346_code", "type": "string"},
+    {"name": "gs1_gtin", "type": "string"},
+    {"name": "title", "type": "string"},
+    {"name": "tech_attributes", "type": "string"},
+    {"name": "lcc_energy_kwh_per_year", "type": "number"},
+    {"name": "lcc_service_interval_months", "type": "number"},
+    {"name": "spares_included", "type": "boolean"},
+    {"name": "doc_status_ifb_ifd_ifc", "type": "string"},
+    {"name": "lead_time_days", "type": "integer"},
+    {"name": "buffer_days", "type": "integer"},
+    {"name": "owner", "type": "string"}
+  ]
+}

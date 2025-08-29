@@ -1,0 +1,3 @@
+defect_id,system_code,package_id,date_found,description,severity,status,owner,date_target,root_cause,countermeasure
+DEF-0001,F1-BMS-Z1,AWP-0201,2025-10-09,Controller offline intermittently,Major,open,bms.supervisor,2025-10-12,Loose RJ45,Crimp and retest
+DEF-0020,F1-HVAC-AHU-01,CWP-0101,2025-11-01,Airflow below spec,Major,in_progress,qa.qc,2025-11-05,Damper misalignment,Recalibrate and balance

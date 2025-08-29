@@ -1,0 +1,7 @@
+documents: [IFB, IFD, IFC]
+packages: [planned, in_progress, ready_to_start, complete]
+tests: [planned, in_progress, pass, fail]
+defects: [open, in_progress, closed]
+legal_significance:
+  - digital-original
+  - requires-qualified-signature

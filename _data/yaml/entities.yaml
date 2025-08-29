@@ -1,0 +1,15 @@
+entities:
+  requirement:
+    attributes: [id, title, description, owner, status, revision, linked_systems, acceptance_criteria]
+  document:
+    attributes: [id, title, type, iso81346_code, package_id, status, revision, owner, legal_significance, link]
+  package:
+    attributes: [id, type, iso81346_code, title, status, planned_start, planned_finish, dependencies, risk_notes, owner]
+  procurement_item:
+    attributes: [id, iso81346_code, gs1_gtin, title, tech_attributes, lcc_energy_kwh_per_year, lcc_service_interval_months, spares_included, status, lead_time_days, buffer_days, owner]
+  system:
+    attributes: [code, name, parent_code, classification, mc_packages, readiness_percent, mechanical_completion, owner]
+  test:
+    attributes: [id, system_code, type, step_no, step_desc, expected, pass_criteria, tolerance, owner]
+  defect:
+    attributes: [id, system_code, package_id, date_found, description, severity, status, owner, date_target, root_cause, countermeasure]

@@ -1,0 +1,57 @@
+site_name: CDE‑AWP Lifecycle Framework
+site_url: https://kiiiiit.github.io/cde-awp-lifecycle-framework-cre/
+docs_dir: docs
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.tabs.link
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+nav:
+  - Главная: index.md
+  - Фреймворк: overview/Framework_CDE-AWP_RealEstate.md
+  - Техническая документация: overview/Technical_Documentation.md
+  - Одностраничник: overview/OnePager_CDE-AWP_Framework.md
+  - Разделы:
+      - 01 Гейты: core/01_Gates_Methodology.md
+      - 02 Модель данных CDE: core/02_CDE_Data_Model.md
+      - 03 Классификация ISO 81346: core/03_Classification_ISO81346.md
+      - 04 Пакетирование AWP: core/04_AWP_Packaging.md
+      - 05 Готовность к закупке: core/05_Procurement_Readiness.md
+      - 06 Системная готовность и Cx: core/06_System_Readiness_and_Cx.md
+      - 07 Эксплуатация (as‑maintained): core/07_OandM_AsMaintained.md
+      - 08 KPI и отчётность: core/08_KPI_and_Reporting.md
+      - 09 Роли, RACI и политики: core/09_Roles_RACI_and_Policies.md
+      - 10 Специфика коммерческой недвижимости: core/10_Commercial_RealEstate_Addendum.md
+  - Дополнительно:
+      - Политика EIP‑first: overview/EIP_First.md
+      - ГЧП и оргуправление: overview/GCHP_Governance.md
+      - Схема СУЖЦО: diagrams/SUJCO.md
+      - Поток AWP: diagrams/AWP_Flow.md
+      - Матрица ПНР (Cx): diagrams/Cx_Matrix.md
+      - Обзор RACI: diagrams/RACI.md
+      - Форматы и приёмка: supplementary/Formats_and_Acceptance.md
+      - Карта ЖЦ и гейты: supplementary/LC_Map_and_Gates.md
+      - CDE и модель данных: supplementary/CDE_and_Data_Model.md
+      - AWP и планирование исполнения: supplementary/AWP_and_Execution_Planning.md
+      - Детали системной готовности и Cx: supplementary/System_Readiness_and_Cx_Details.md
+      - Эксплуатация CRE: supplementary/OandM_Commercial_RealEstate.md
+      - Детализация KPI: supplementary/KPI_and_Reporting_Details.md
+      - Роли: supplementary/Roles_and_Responsibility.md
+      - Шаблоны и формы: supplementary/Ready_Templates_and_Forms.md
+      - Мини‑методичка: supplementary/Mini_Implementation_Guide.md
+      - Интеграция с BI: guides/BI_Integration.md
+      - Инструменты данных: guides/Data_Tools.md
+      - Отчёты: guides/Reports.md
+      - API: api/API.md
+      - Дорожная карта: overview/ROADMAP.md

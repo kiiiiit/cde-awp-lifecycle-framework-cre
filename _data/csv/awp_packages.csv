@@ -1,0 +1,4 @@
+package_id,package_type,iso81346_code,title,status,planned_start,planned_finish,ready_to_start,dependencies,risk_notes,owner
+AWP-0001,EWP,F1-EL-PWR-01,Electrical power design pack,planned,2025-09-01,2025-09-15,false,,High load center constraints,design.lead
+AWP-0101,CWP,F1-HVAC-CORE-02,Core HVAC construction pack,in_progress,2025-10-01,2025-11-15,true,EWP-0007;PROC-102,Interface with façade anchors,construction.pm
+AWP-0201,IWP,F1-BMS-Z1-01,BMS zone 1 weekly work pack,ready_to_start,2025-10-07,2025-10-14,false,CWP-0101,Awaiting VAV controllers,bms.supervisor
