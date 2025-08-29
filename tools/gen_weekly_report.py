@@ -8,42 +8,52 @@ TEMPLATE = os.path.join(REPO, "reports/templates/weekly_report.md.j2")
 OUTDIR = os.path.join(REPO, "reports/out")
 os.makedirs(OUTDIR, exist_ok=True)
 
-# Load KPI agg if present
+"""Generate weekly report from aggregated KPI (wide) and readiness summary.
+
+Expected KPI agg format (wide):
+  week,project_id, SCH_ONTIME_AWP, CX_PASS_FIRST, ..., value_mean
+"""
+
+# Load KPI agg if present (wide format)
 kpi_file = os.path.join(OUTDIR, "kpi_weekly_agg.csv")
-kpi = {}
+kpi_wide_by_key = {}
 if os.path.exists(kpi_file):
     with open(kpi_file, encoding="utf-8") as f:
         r = csv.DictReader(f)
         for row in r:
-            k = (row["week"], row["project_id"], row["kpi_code"])
-            kpi[k] = row["value_mean"]
+            week = row.get("week")
+            project = row.get("project_id")
+            if not week or not project:
+                continue
+            kpi_wide_by_key[(week, project)] = row
 
-# Load readiness summary
+# Load readiness summary (metric,value rows)
 ready_file = os.path.join(OUTDIR, "system_readiness_summary.csv")
 ready = {"systems_count": 0, "mean_percent": 0, "mc_done": 0}
 if os.path.exists(ready_file):
     with open(ready_file, encoding="utf-8") as f:
-        next(f)  # Skip header
-        parts = next(f, "").strip().split(",")
-        if len(parts) == 3:
-            ready["systems_count"] = parts[0]
-            ready["mean_percent"] = parts[1]
-            ready["mc_done"] = parts[2]
+        r = csv.DictReader(f)
+        for row in r:
+            metric = row.get("metric")
+            value = row.get("value")
+            if metric in ready:
+                ready[metric] = value
 
-# Pick last week present in kpi or fallback
+# Pick last week present in KPI agg or fallback
 week = None
 project_id = None
-if kpi:
-    week, project_id, _ = sorted(kpi.keys())[-1]
+if kpi_wide_by_key:
+    week, project_id = sorted(kpi_wide_by_key.keys())[-1]
 else:
     week = "2025-W40"
     project_id = "CRE-PILOT-01"
 
+row = kpi_wide_by_key.get((week, project_id), {})
 context = {
     "project_id": project_id,
     "week": week,
-    "ontime_rate": kpi.get((week, project_id, "SCH_ONTIME_AWP"), "NA"),
-    "cx_pass_first": kpi.get((week, project_id, "CX_PASS_FIRST"), "NA"),
+    "ontime_rate": row.get("SCH_ONTIME_AWP", "NA"),
+    "cx_pass_first": row.get("CX_PASS_FIRST", "NA"),
     "systems_count": ready["systems_count"],
     "mean_percent": ready["mean_percent"],
     "mc_done": ready["mc_done"],
