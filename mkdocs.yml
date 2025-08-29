@@ -34,6 +34,7 @@ nav:
       - 09 Роли, RACI и политики: core/09_Roles_RACI_and_Policies.md
       - 10 Специфика коммерческой недвижимости: core/10_Commercial_RealEstate_Addendum.md
   - Дополнительно:
+      - Глоссарий: overview/Glossary.md
       - Политика EIP‑first: overview/EIP_First.md
       - ГЧП и оргуправление: overview/GCHP_Governance.md
       - Схема СУЖЦО: diagrams/SUJCO.md

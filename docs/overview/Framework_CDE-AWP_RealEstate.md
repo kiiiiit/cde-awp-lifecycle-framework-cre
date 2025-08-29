@@ -28,7 +28,7 @@ CDE‑AWP Lifecycle Framework — единый каркас управления
 
 4) Гейты ЖЦ по ГОСТ 59799‑2021:
 - Входы/выходы, RACI, критерии готовности, протокол решения
-- Чек‑лист качества данных (Completeness, Consistency, Traceability, Legal readiness)
+- Чек‑лист качества данных: Полнота (Completeness), Согласованность (Consistency), Трассируемость (Traceability), Юридическая готовность (Legal readiness)
 
 5) Закупки и готовность:
 - Каталог позиций с кодами ISO 81346/GS1 и LCC/TCO

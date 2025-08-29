@@ -25,7 +25,7 @@
 
 ## 6. Гейты и качество данных
 - Gate‑чек‑листы: входы/выходы, RACI, статусы IFB/IFD/IFC, юридическая значимость.
-- Политика качества данных: Completeness, Consistency, Traceability, Legal readiness; «no data — no gate».
+- Политика качества данных: Полнота (Completeness), Согласованность (Consistency), Трассируемость (Traceability), Юридическая готовность (Legal readiness); «no data — no gate».
 
 ## 7. Готовность систем и ПНР
 - Модель системной готовности: MC‑пакеты, перевод объёмов в % по системам.
